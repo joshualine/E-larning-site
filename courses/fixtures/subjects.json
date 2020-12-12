@@ -1,0 +1,103 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Engineering",
+    "slug": "engineering"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Physics Education",
+    "slug": "physics-education"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Mathematics",
+    "slug": "mathematics"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "teacher": 1,
+    "subject": 2,
+    "title": "ENG 101",
+    "slug": "eng-101",
+    "overview": "xpressa vero in iis aetatibus, quae iam confirmatae sunt. Sin laboramus, quis est, qui alienae modum statuat industriae? An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Nondum autem explanatum satis, erat, quid maxime natura vellet. Negabat igitur ullam esse artem, quae ipsa a se proficisceretur; Hoc uno captus Erillus scientiam summum bonum esse defendit nec rem ullam aliam per se expetendam.",
+    "created": "2020-12-02T07:06:43.118Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "teacher": 1,
+    "subject": 1,
+    "title": "Python Programming",
+    "slug": "python-programming",
+    "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita nemo beato beatior. Si enim ad populum me vocas, eum. Aliena dixit in physicis nec ea ipsa, quae tibi probarentur; Universa enim illorum ratione cum tota vestra confligendum puto. Duo Reges: constructio interrete. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Quae in controversiam veniunt, de iis, si placet, disseramus.",
+    "created": "2020-12-02T07:08:56.629Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Fields in Engineering",
+    "description": "Here we will get to know about the different fields in Engineering."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Job Opportunities in Engineering",
+    "description": ""
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Origin of Engineering",
+    "description": "we will take a look a where and how engineering started. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ita nemo beato beatior. Si enim ad populum me vocas, eum. Aliena dixit in physicis nec ea ipsa, quae tibi probarentur; Universa enim illorum ratione cum tota vestra confligendum puto. Duo Reges: constructio interrete. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Quae in controversiam veniunt, de iis, si placet, disseramus."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 2,
+    "title": "Intro to Python",
+    "description": ""
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 5,
+  "fields": {
+    "course": 2,
+    "title": "Python Datastructures",
+    "description": ""
+  }
+}
+]
